@@ -9,10 +9,21 @@
   height: 70px;
 }
 
+.logo-wrapper {
+  width: 50%;
+}
+
 .logo-text {
   font-family: "Satisfy", cursive;
   color: #f2767E; /*orange/pink highlught*/
 }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+ align-items: flex-end;
+}
+
 
 /*Jumbotoron styles*/
 .jumbotron {
@@ -34,5 +45,47 @@
 }
 
 .product-img {
-  padding: 0px 7.5px;
+  padding: 0px ;
+}
+
+footer {
+  height: 2o0px;
+  background-color:#333;
+  padding: 10px 0px;
+}
+footer img.logo-img {
+  width:120px;
+}
+
+
+.address-border {
+  border-left: 1px solid #fff;
+  border-right: 1px solid rgba(255,255,255, 0.1);
+}
+
+
+address {
+  color: #fff;
+}
+
+address>a {
+  color: #bfc0c1;
+
+}
+
+address>a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dis-block {
+  display:block;
+  color: #bfc0c1;
+}
+.dis-block:hover{
+  color:#fff;
+}
+
+.copyright {
+  color: #505050;
 }

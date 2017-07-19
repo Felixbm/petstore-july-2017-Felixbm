@@ -10,13 +10,17 @@
 </head>
 <body>
 	<header class="container">
+		<div class="flex"><!-- display-flex wrapper-->
+		<div class= "logo-wrapper">
 		<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo-img pull-left">
 		<h1 class="logo-text">Pet Store</h1>
+	</div>
 		<ul class="nav nav-pills pull-right">
 		  <li role="presentation"><a href="#">Home</a></li>
 		  <li role="presentation"><a href="#">Products</a></li>
 		  <li role="presentation"><a href="#">Contact Us</a></li>
 		</ul>
+		</div>
 	</header>
 	<!-- Hero section begins -->
 	<div class="jumbotron">
@@ -36,7 +40,7 @@
 						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cum perferendis expedita nostrum vitae nesciunt aperiam, ducimus assumenda sed inventore iusto quam, eos fugiat ex reiciendis nobis accusamus neque magni.</p>
 					</div>
 					<div class="row"> <!--product thumb nail begin -->
-						<div class="col-xs-6 col-sm-4 product-img">
+						<div class="col-xs-6 col-sm-4 ">
 							<!-- product 1begins -->
 					    <div class="thumbnail">
 					      <img src="img/product1.jpg" alt="Product 1">
@@ -61,7 +65,7 @@
 
 							<!-- products 2 end  -->
 						</div>
-						<div class="col-xs-6 col-sm-4 product-img">
+						<div class="col-xs-6 col-sm-4 ">
 							<!-- product 3 begins -->
 							<div class="thumbnail">
 								<img src="img/product3.jpg" alt="Product 3">
@@ -88,6 +92,30 @@
 		</div><!--overall row ends-->
 	</div>
 	<!-- Feature section edns -->
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo-img">
+				</div>
+				<div class="col-sm-3 address-border">
+					<address>
+					Pet Store	<br>
+						Fresno, CA<br>
+						<a href="mailto:felixbm@mail.fresnostate.edu">info@petstore.com</a>
+					</address>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"class="dis-block"><i class="fa fa-twitter" aria-hidden="true"></i>twitter</a>
+					<a href="#"class="dis-block"><i class="fa fa-twitter" aria-hidden="true"></i>facebook</a>
+					<a href="#"class="dis-block"><i class="fa fa-twitter" aria-hidden="true"></i>twitter</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center copyright"> &copy;PetStore Inc, All rights reserved</div>
+			</div>
+		</div>
+	</footer>
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
